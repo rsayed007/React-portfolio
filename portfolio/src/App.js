@@ -10,7 +10,11 @@ class App extends Component {
         {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
         <div className="demo-big-content">
           <Layout>
-            <Header className="header_color" title="Title" scroll>
+            <Header className="header_color" scroll>
+              <a href="/"  className='title-style '>
+                <span class="mdl-layout-title">Title</span>
+              </a>
+              <div class="mdl-layout-spacer"></div>
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/about">About</Link>
@@ -18,7 +22,9 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer >
+              <a href="/"  className='toggle-title-style '><span class="mdl-layout-title">Title</span></a>
+              
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/about">About</Link>

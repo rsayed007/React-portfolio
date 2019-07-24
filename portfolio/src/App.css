@@ -14,6 +14,19 @@
   padding: 20px 0 !important;
 
 }
+.title-style{
+  text-decoration: none;
+  font-size: 28px;
+  color: #fff;
+}
+.toggle-title-style{
+  text-align: center;
+  text-decoration: none;
+  padding: 25px 0;
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+}
 .pp_img{
   height: 250px;
   padding: 20px;
@@ -63,3 +76,48 @@
   padding: 20px 0 ;
 
 }
+.project_card{
+  display: flex;
+  padding-top: 30px;
+
+}
+
+/* ======== Contact page Css========== */
+.contactPage_body{
+  background: gray;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  padding: 115px 0;
+}
+.contact_body{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+.profile_img{
+  width: 250px;
+}
+.contact_body p{
+  text-align: justify;
+  padding: 0 20px;
+}
+.contact_body h3{
+  font-weight: bold;
+}
+.contact_body hr{
+  border-top: 5px double black;
+  width: 50%;
+  margin: auto;
+}
+.cont_info{
+  font-size: 40px;
+}
+.cont_info i {
+  padding-right:20px ;
+  font-size: 60px;
+}
+/* ======== Contact page Css========== */
